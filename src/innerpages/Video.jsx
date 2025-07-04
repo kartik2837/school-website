@@ -1,8 +1,8 @@
 import React from 'react';
-import kartik from '../../public/videos/kartik.mp4';
-import kartik1 from '../../public/videos/kartik1.mp4';
-import kartik2 from '../../public/videos/kartik2.mp4';
-import kartik3 from '../../public/videos/kartik3.mp4';
+import kartik from '/videos/kartik.mp4';
+import kartik1 from '/videos/kartik1.mp4';
+import kartik2 from '/videos/kartik2.mp4';
+import kartik3 from '/videos/kartik3.mp4';
 
 const Video = () => {
     const videos = [
