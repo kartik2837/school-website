@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { WOW } from 'wowjs';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faPhone,
@@ -10,7 +11,7 @@ import {
 
 const Contact = () => {
     useEffect(() => {
-        new WOW().init();
+        AOS.init({ duration: 1000 });
     }, []);
 
     return (

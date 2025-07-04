@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { WOW } from 'wowjs';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faCheckCircle,
@@ -13,12 +14,15 @@ import {
     faChalkboardTeacher,
 } from '@fortawesome/free-solid-svg-icons';
 import schoolImage from '../assets/image1.webp';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
-    useEffect(() => {
-        new WOW().init();
-    }, []);
 
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
     return (
         <div className="container my-5">
             {/* Section 1 - Introduction */}

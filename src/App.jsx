@@ -11,7 +11,8 @@ import Gallery from './innerpages/Gallery';
 import 'animate.css/animate.min.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-import WOW from 'wowjs';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import './App.css';
 import Video from './innerpages/Video';
@@ -24,7 +25,7 @@ import Details from './innerpages/Details';
 function App() {
 
   useEffect(() => {
-    new WOW.WOW().init();
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <>
