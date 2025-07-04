@@ -1,20 +1,20 @@
 import React from 'react';
 import '../App.css';
 import event from '../assets/event.jpg';
-import event1 from '../assets/event1.jpg';
-import event2 from '../assets/event2.jpg';
-import event3 from '../assets/event3.jpg';
-import event4 from '../assets/event4.jpg';
+import events from '../assets/events.jpg';
+import eventse from '../assets/eventse.jpg';
+import eventimage from '../assets/eventimage.jpg';
+import ramu from '../assets/ramu.jpg';
 import shyam from '../assets/shyam.png';
 
 
 const Gallery = () => {
     const galleryImages = [
         { id: 1, src: event, alt: 'Republic Day', category: 'Events', year: 2025 },
-        { id: 2, src: event1, alt: 'Independence Day', category: 'Events', year: 2025 },
-        { id: 3, src: event2, alt: 'Cultural Function', category: 'Events', year: 2025 },
-        { id: 4, src: event3, alt: 'Science Class', category: 'Classes', year: 2025 },
-        { id: 5, src: event4, alt: 'Annual Day', category: 'Celebrations', year: 2025 },
+        { id: 2, src: events, alt: 'Independence Day', category: 'Events', year: 2025 },
+        { id: 3, src: eventse, alt: 'Cultural Function', category: 'Events', year: 2025 },
+        { id: 4, src: eventimage, alt: 'Science Class', category: 'Classes', year: 2025 },
+        { id: 5, src: ramu, alt: 'Annual Day', category: 'Celebrations', year: 2025 },
         { id: 6, src: shyam, alt: 'Dance Rehearsal', category: 'Practice', year: 2025 },
     ];
 
