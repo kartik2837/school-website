@@ -1,5 +1,5 @@
 
-import { Routes, Route } from 'react-router-dom';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './innerpages/Home';
 import Abouts from './innerpages/Abouts';
 import Topbar from './component/Topbar'
