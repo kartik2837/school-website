@@ -29,6 +29,7 @@ function App() {
   }, []);
   return (
     <>
+      <BrowerRouter>
 
       <div>
         <Topbar />
@@ -63,6 +64,7 @@ function App() {
         </a>
         <Footer />
       </div>
+        </BrowerRouter>
 
 
 
