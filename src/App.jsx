@@ -1,5 +1,5 @@
 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './innerpages/Home';
 import Abouts from './innerpages/Abouts';
 import Topbar from './component/Topbar'
@@ -36,6 +36,7 @@ function App() {
         <Topbar />
         <Navbar />
         <br />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Abouts />} />
